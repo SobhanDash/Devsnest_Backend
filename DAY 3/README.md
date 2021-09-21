@@ -7,5 +7,5 @@ To simulate a chat application using PUB_SUB, <br><br>
 
 And, we're done!
 
-![Streams](src="./stream.png")
-![PUBSUB](src="./pubsub.png")
+![Streams](https://github.com/SobhanDash/Devsnest_Backend/blob/main/DAY%203/stream.png?raw=true)
+![PUBSUB](https://github.com/SobhanDash/Devsnest_Backend/blob/main/DAY%203/pubsub.png?raw=true)
