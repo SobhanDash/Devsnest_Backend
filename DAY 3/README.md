@@ -7,4 +7,5 @@ To simulate a chat application using PUB_SUB, <br><br>
 
 And, we're done!
 
-![Streams PUBSUB]()
+![Streams](src="./stream.png")
+![PUBSUB](src="./pubsub.png")
