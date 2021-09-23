@@ -12,10 +12,7 @@ module.exports = async (req, res, next) => {
 
     next();
   } catch (err) {
-    const error=new Error("You are not authorized")
-    next(error)
+    const error = new Error("You are not authorized");
+    next(error);
   }
 };
-
-
-

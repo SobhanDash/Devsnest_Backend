@@ -13,6 +13,7 @@ app.use(express.json());
 // checks for auth then for admin then shows admin page. double auth is done
 app.use("/admin", isauth, isadmin, adminroutes);
 
+// user routes
 app.use("/user", userroutes);
 
 app.use((error, req, res, next) => {

@@ -8,11 +8,11 @@ module.exports = (req, res, next) => {
   next();
 };
 
-//admin role is checked
-exports.check = (role) => {
-  if (req.user.role !== role || req.user === undefined) {
-    return res.status(403).json({
-      message: "Not authorized",
-    });
-  }
-};
+// admin role is checked
+// exports.check = (role) => {
+//   if (req.user.role !== role || req.user === undefined) {
+//     return res.status(403).json({
+//       message: "Not authorized",
+//     });
+//   }
+// };
