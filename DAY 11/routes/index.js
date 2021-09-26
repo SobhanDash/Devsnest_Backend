@@ -16,7 +16,7 @@ router.get("/", function (req, res, next) {
  * @description
  * Security, Performance & Edge Cases - 3 things to keep in mind while building api
  * Level - 2
- * JS/SQL - THA
+ * JS/SQL injection - THA
  *
  */
 
